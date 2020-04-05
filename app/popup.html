@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="popup.scss">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdc-card">
+        <div class="mdc-card__primary">
+            <div class="card-primary">
+                <h2 class="mdc-card__title">GPA Calculator</h2>
+                <h3 class="mdc-card__subtitle">for NCU students</h3>
+            </div>
+            <div class="card-score">
+                <div class="card-score-label">Overall GPA</div>
+                <div id="gpa">0</div>
+            </div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <button id="gpaBtn" class="mdc-button mdc-card__action mdc-card__action--button"> <span
+                        class="mdc-button__ripple"></span>Calculate</button>
+                <!-- <button class="mdc-button mdc-card__action mdc-card__action--button"> <span
+                        class="mdc-button__ripple"></span> Bookmark</button> -->
+            </div>
+            <div class="mdc-card__action-icons">
+                <a href="" target="_blank"
+                    class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded"
+                    title="Homepage" data-mdc-ripple-is-unbounded="true">home
+                </a>
+                <a href="https://github.com/h164654156465/ncu-gpa-calculator.git" target="_blank"
+                    class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded"
+                    title="GitHub" data-mdc-ripple-is-unbounded="true">code
+                </a>
+                <a class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded"
+                    title="More options" data-mdc-ripple-is-unbounded="true">more_vert
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="popup.js"></script>
+
+</html>

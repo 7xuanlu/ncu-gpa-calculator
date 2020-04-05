@@ -1,0 +1,41 @@
+@use "@material/typography" with (
+  $font-family: unquote("Ubuntu, open-sans")
+);
+
+@use "@material/card/mdc-card";
+@use "@material/button/mdc-button";
+@use "@material/icon-button/mdc-icon-button";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.mdc-card {
+    height: 150px;
+    width: 300px;
+    outline: none;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.mdc-card__primary {
+    height: 60px;
+    display: flex;
+    padding: 1rem;
+}
+
+.card-primary {
+    height: 50px;
+    width: 180px;
+}
+
+.card-score {
+    height: 60px;
+    width: 60px;
+    padding: 0.5rem;
+    background-color: lightskyblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-score-label {
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: left;
+}
