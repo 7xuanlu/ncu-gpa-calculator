@@ -5,10 +5,6 @@ import GPACalculator from './gpa-calculator.js';
 let gpaBtn = document.getElementById('gpaBtn');
 let gradeDoc = null;  // Grade root node
 
-// chrome.storage.sync.get('color', function (data) {
-//     changeColor.style.backgroundColor = data.color;
-//     changeColor.setAttribute('value', data.color);
-// });
 
 /**
  * Callback to request html from https://cis.ncu.edu.tw/ScoreInquiries/student/student_record.php
@@ -65,9 +61,4 @@ gpaBtn.onclick = () => {
     });
 
     document.getElementById('gpa').innerHTML = gpaCalculator.gpa;
-    // chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-    //     chrome.tabs.executeScript(
-    //         tabs[0].id,
-    //         { code: 'document.body.style.backgroundColor = "' + color + '";' });
-    // });
 };

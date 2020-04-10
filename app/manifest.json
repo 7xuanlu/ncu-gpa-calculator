@@ -6,7 +6,6 @@
         "*://*.cc.ncu.edu.tw/system/162*",
         "*://cis.ncu.edu.tw/ScoreInquiries/student/student_record.php",
         "cookies",
-        "activeTab",
         "declarativeContent",
         "storage"
     ],
