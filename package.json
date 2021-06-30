@@ -15,7 +15,8 @@
     "@babel/runtime": "^7.9.2",
     "@material/button": "^5.1.0",
     "@material/card": "^5.1.0",
-    "@material/icon-button": "^5.1.0"
+    "@material/icon-button": "^5.1.0",
+    "color-convert": "^1.9.3"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
