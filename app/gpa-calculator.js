@@ -31,16 +31,34 @@ export default class GPACalculator {
     scoreToPoint(score) {
         let point;
         switch (true) {
-            case (score >= 80):
+            case (score >= 90):
+                point = 4.3;
+                break;
+            case (score < 90 && score >= 85):
                 point = 4;
                 break;
-            case (score < 80 && score >= 70):
+            case (score < 85 && score >= 80):
+                point = 3.7;
+                break;
+            case (score < 80 && score >= 77):
+                point = 3.3;
+                break;
+            case (score < 77 && score >= 73):
                 point = 3;
                 break;
-            case (score < 70 && score >= 60):
+            case (score < 73 && score >= 70):
+                point = 2.7;
+                break;
+            case (score < 70 && score >= 67):
+                point = 2.3;
+                break;
+            case (score < 67 && score >= 63):
                 point = 2;
                 break;
-            case (score < 60 && score >= 1):
+            case (score < 63 && score >= 60):
+                point = 1.7;
+                break;
+            case (score < 60 && score >= 50):
                 point = 1;
                 break;
             case (score === 0):
