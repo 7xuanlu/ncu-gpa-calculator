@@ -1,6 +1,6 @@
 {
     "name": "NCU GPA Calculator",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Calculate GPA for NCU students once they enter the grading page",
     "permissions": [
         "*://*.cc.ncu.edu.tw/system/162*",

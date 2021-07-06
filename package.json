@@ -1,6 +1,6 @@
 {
   "name": "ncu-gpa-calculator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Calculate GPA for NCU students",
   "main": "index.js",
   "scripts": {
