@@ -63,6 +63,7 @@ export default class GPACalculator {
                 break;
             case (score === 0):
                 point = 0;
+                break;
             default:
                 point = NaN;
         }

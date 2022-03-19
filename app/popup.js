@@ -53,7 +53,7 @@ gpaBtn.onclick = () => {
 
     console.log(gradeDoc);
     let allGradeNodes = gradeDoc.childNodes;
-    allGradeNodes.forEach((item, index) => {
+    allGradeNodes.forEach((item, ) => {
         if (item.className === 'list3') return; // Skip semester row
         let grade = item.lastChild.innerHTML;
         let credit = item.children[3].innerHTML;
